@@ -1,3 +1,13 @@
+ /**********************************
+ * 
+ *  Rockhome's tminus
+ *  Version 1.0
+ *  
+ *  Author: Mike Mackintosh
+ *  Email: m [at] rocketho [dot] me
+ *  Date: 20140221
+ * 
+ **********************************/
         (function( $ ) {
             $.fn.tminus = function( options ) {
 
