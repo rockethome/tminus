@@ -11,6 +11,8 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://raw.githubusercontent.com/rockethome/tminus/master/jquery.tminus.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -43,6 +45,15 @@
 <pre><code>$('#tzone').tminus({tminus:'2014 02 28 12:00:00'});
 </code></pre>
 
+<p>Here is a countdown to: <code>2015 01 28 12:00:00</code>
+<div id="tzone"></div>
+  <script>
+  $(document).ready(function(){
+    $('#tzone').tminus({tminus:'2015 01 28 12:00:00'});
+  });
+</script>
+</p>
+  
 <h2>
 <a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
 
